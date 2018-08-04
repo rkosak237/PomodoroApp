@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+// Place dedicated for global styles
+html {
+    font-size: 62.5%;
+    background: $background-color;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: $font-color;
+}
+
+body {
+    font-size: 1.4rem;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h1 {
+    font-size: 24px;
+    font-size: $l-size;
+    color: $font-color;
+}
+
+button {
+    border: none;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: $m-size;
+    letter-spacing: 2px;
+    transition: .3s ease-in-out;
+
+    &:hover {
+        background: $btn-hover-background;
+        color: $btn-hover-text;
+    }
+}
+
+button:disabled {
+    background: $btn-disabled;
+    transition: .3 ease-in-out;
+}

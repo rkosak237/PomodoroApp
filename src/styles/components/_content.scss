@@ -1,0 +1,16 @@
+.content {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.content__text {
+    align-self: flex-start;
+    line-height: 0.7 * $l-size;
+    font-size: $m-size;
+    transition: .3s ease-in-out;
+}
+
+.content__text--highlight {
+    color: $blue-accent;
+}

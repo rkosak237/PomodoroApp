@@ -1,0 +1,11 @@
+.chart--rotated {
+    transform: rotate(270deg);
+    transform-origin: center;
+    transition: .1s ease-in-out;
+    -webkit-transition: .1s ease-in-out;
+}
+
+.chart__text {
+    color: $font-color;
+    font-size: $l-size;
+}

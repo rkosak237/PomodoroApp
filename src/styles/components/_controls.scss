@@ -1,0 +1,16 @@
+.controls {
+    align-items: center;
+    display: flex;
+    margin: $m-size 0 $m-size 0;
+    justify-content: space-evenly;
+    width: 90%;
+}
+
+.controls__select {
+    border: 1px solid $blue-accent;
+    border-radius: 10px;
+    font-size: $m-size;
+    height: $l-size;
+    padding-left: $s-size;
+    width: 30%;
+}

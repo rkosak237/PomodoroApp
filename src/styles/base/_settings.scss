@@ -1,0 +1,39 @@
+/*
+    Place for variables:
+        - colors
+        - font-sizes
+        - margins
+        - etc.
+*/
+
+//Colors
+$background-color: #fff;
+$font-color: #929090;
+$input-color: #929090;
+
+//section colors
+$h1-color: #000;
+
+//underline
+$underline-color: #929090;
+
+//accents
+$blue-accent: #0076FF;
+
+//btn colors
+$btn-hamburger: #000;
+$btn-background: #0076FF;
+$btn-text: #fff;
+$btn-hover-background: lighten($blue-accent, 10%);
+$btn-hover-text: #fff;
+$btn-disabled: #635e5e;
+
+//Spacing
+$s-size: 1.2rem;
+$m-size: 1.6rem;
+$l-size: 3.2rem;
+$xl-size: 4.8rem;
+$xxl-size: 9.6rem;
+
+//Device-size
+$desktop: 40rem;
