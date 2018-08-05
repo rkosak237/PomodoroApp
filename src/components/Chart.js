@@ -21,15 +21,15 @@ constructor(props) {
       <svg
         height={ radius * 2 }
         width={ radius * 2 }>
-          <circle
-           stroke="#d2d2d2"
-           fill="transparent"
-           strokeWidth={ stroke }
-           strokeDasharray="53 20"
-           strokeWidth={ stroke - 3 }
-           r={ this.normalizedRadius }
-           cx={ radius }
-           cy={ radius }/>
+        <circle
+          stroke="#d2d2d2"
+          fill="transparent"
+          strokeWidth={ stroke }
+          strokeDasharray="53 20"
+          strokeWidth={ stroke - 3 }
+          r={ this.normalizedRadius }
+          cx={ radius }
+          cy={ radius }/>
         <circle
           className="chart--rotated"
           stroke="#0076FF"

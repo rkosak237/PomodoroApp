@@ -3,7 +3,7 @@ import Button from '../components/Button';
 import Chart from '../components/Chart';
 import SelectValue from '../components/SelectValue';
 
-export default class Pomodoro extends React.Component {
+export default class Timer extends React.Component {
     constructor(props) {
         super(props);
         this.state={
@@ -27,7 +27,7 @@ export default class Pomodoro extends React.Component {
   }
 
   start = () => {
-    this.intervalId = setInterval(this.tick, 1000);
+    this.intervalId = setInterval(this.tick, 10);
   }
 
   stop = () => {
@@ -57,10 +57,10 @@ export default class Pomodoro extends React.Component {
     const { time, active } = this.state;
     return (
       <div className="container">
-        <h1 className="container__title">Pomodoro</h1>
+        <h1 className="container__title">Timer</h1>
         <div className="content">
           { !active ?
-          <p className="content__text">Improve your productivity with pomodoro timer.
+          <p className="content__text">Improve your productivity with timer.
             <br/>Just pick time and press <span className="content__text--highlight">Start!</span>
           </p>
           : <p className="content__text">To take a break click <span className="content__text--highlight">Pause. </span>
