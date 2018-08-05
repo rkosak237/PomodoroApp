@@ -7,6 +7,7 @@ const SelectValue = (props) => {
             className="controls__select"
             onChange={props.onChange}
             name="Minutes">
+            <option value="-" selected disabled hidden >Choose time</option>
             <option value="300">5 mins</option>
             <option value="600">10 mins</option>
             <option value="900">15 mins</option>

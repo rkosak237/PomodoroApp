@@ -27,7 +27,7 @@ export default class Timer extends React.Component {
   }
 
   start = () => {
-    this.intervalId = setInterval(this.tick, 10);
+    this.intervalId = setInterval(this.tick, 1000);
   }
 
   stop = () => {
